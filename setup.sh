@@ -1,20 +1,9 @@
 #!/bin/bash
 
 # Rambeboy ASCII Art
-echo "
-
-██████╗  █████╗ ███╗   ███╗██████╗ ███████╗██████╗  ██████╗ ██╗   ██╗
-██╔══██╗██╔══██╗████╗ ████║██╔══██╗██╔════╝██╔══██╗██╔═══██╗╚██╗ ██╔╝
-██████╔╝███████║██╔████╔██║██████╔╝█████╗  ██████╔╝██║   ██║ ╚████╔╝ 
-██╔══██╗██╔══██║██║╚██╔╝██║██╔══██╗██╔══╝  ██╔══██╗██║   ██║  ╚██╔╝  
-██║  ██║██║  ██║██║ ╚═╝ ██║██████╔╝███████╗██████╔╝╚██████╔╝   ██║   
-╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ ╚══════╝╚═════╝  ╚═════╝    ╚═╝   
-                                                                     
-ELIXIR TESTNET NODE
-AUTHOR : NOFAN RAMBE
-GITHUB : RAMBEBOY
-WELCOME & ENJOY SIR!
-"
+setup() {
+https://raw.githubusercontent.com/Rambeboy/Rambeboy/refs/heads/main/Elixir.sh | bash
+sleep 3
 
 # Display environment structure
 echo -e "\nYour environment should look like this if you haven't used the script before:"
