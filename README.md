@@ -30,7 +30,7 @@ Go to https://testnet-3.elixir.xyz/, log in with your wallet and mint 1000 MOCKs
 All commands below can be replaced by our installer. To do this, copy this command and follow the instructions.
 
 ```
-curl -sO https://raw.githubusercontent.com/Rambeboy/elixirtestnetnodeguide/refs/heads/main/setup.sh && chmod +x setup.sh && ./setup.sh
+curl -sO https://raw.githubusercontent.com/Rambeboy/ElixirTestnetNodeGuide/refs/heads/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 
@@ -87,7 +87,7 @@ Now you can see your uptime on the testnet site.
 All commands below can be replaced by our installer. To do this, copy this command and follow the instructions.
 
 ```
-curl -sO https://raw.githubusercontent.com/NodeMafia/ElixirTestnetNodeGuide/refs/heads/main/ElixirSetup.sh && chmod +x ElixirSetup.sh && ./ElixirSetup.sh
+curl -sO https://raw.githubusercontent.com/Rambeboy/ElixirTestnetNodeGuide/refs/heads/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 
