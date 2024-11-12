@@ -1,10 +1,8 @@
 #!/bin/bash
 
 # Rambeboy ASCII Art
-setup() {
-  curl -s https://raw.githubusercontent.com/Rambeboy/Rambeboy/refs/heads/main/Elixir.sh | bash
-  sleep 3
-}
+curl -s https://raw.githubusercontent.com/Rambeboy/Rambeboy/refs/heads/main/Elixir.sh | bash
+sleep 3
 
 # Display environment structure
 echo -e "\nYour environment should look like this if you haven't used the script before:"
