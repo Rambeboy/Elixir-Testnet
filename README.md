@@ -1,4 +1,4 @@
-### ELIXIR TESTNET & MAINNET ALSO
+### ELIXIR TESTNET & MAINNET
 
 *Disclaimer: The author of this guide, which is exclusively informational material, does not bear any responsibility for the actions of readers. There are no fraudulent or spam links in the guide. All materials were obtained from official sources, links to which can be found at the end of each guide. This post is copyrighted by Nod Mafia.*
 
@@ -13,7 +13,8 @@ The platform allows us to mint us 1,000 MOCKs on the Sepolia network. MOCKs can 
 
 ---
 
-### What's required:
+### What's Required:
+
 - Server on Linux
 - 2 EVM waletts(For security, one of the wallets should never be used for anything other than running a testnet validator.) 
 
@@ -25,12 +26,12 @@ Go to https://testnet-3.elixir.xyz/, log in with your wallet and mint 1000 MOCKs
 
 ---
 
-## Testnet Node installation
+## Testnet Node Installation
 
 All commands below can be replaced by our installer. To do this, copy this command and follow the instructions.
 
 ```
-curl -sO https://raw.githubusercontent.com/Rambeboy/ElixirTestnetNodeGuide/refs/heads/main/setup.sh && chmod +x setup.sh && ./setup.sh
+curl -sO https://raw.githubusercontent.com/Rambeboy/Elixir-Testnet/refs/heads/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 
@@ -43,7 +44,7 @@ docker -version
 Create a directory and navigate to it with the command
 
 ```
-mkdir ElixirNode && cd ElixirNode
+mkdir ElixirTestnet && cd ElixirTestnet
 ```
 
 Before performing the following steps you will need the private key of your new wallet, the address of which we wrote in CUSTOM VALIDATOR!
@@ -87,7 +88,7 @@ Now you can see your uptime on the testnet site.
 All commands below can be replaced by our installer. To do this, copy this command and follow the instructions.
 
 ```
-curl -sO https://raw.githubusercontent.com/Rambeboy/ElixirTestnetNodeGuide/refs/heads/main/setup.sh && chmod +x setup.sh && ./setup.sh
+curl -sO https://raw.githubusercontent.com/Rambeboy/Elixir-Testnet/refs/heads/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 
@@ -100,7 +101,7 @@ docker -version
 Create a directory and navigate to it with the command
 
 ```
-mkdir ElixirNode && cd ElixirNode
+mkdir ElixirTestnet && cd ElixirTestnet
 ```
 
 Before performing the following steps you will need the private key of your new wallet, the address of which we wrote in CUSTOM VALIDATOR!
@@ -137,7 +138,7 @@ Now you can see your uptime on the testnet site.
 
 ---
 
-## Updating the node
+## Updating the Node
 ```
 docker ps 
 ```
