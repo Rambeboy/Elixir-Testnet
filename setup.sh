@@ -2,7 +2,7 @@
 
 # Rambeboy ASCII Art
 setup() {
-https://raw.githubusercontent.com/Rambeboy/Rambeboy/refs/heads/main/Elixir.sh | bash
+curl -s https://raw.githubusercontent.com/Rambeboy/Rambeboy/refs/heads/main/Elixir.sh | bash
 sleep 3
 }
 
