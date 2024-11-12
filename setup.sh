@@ -2,8 +2,8 @@
 
 # Rambeboy ASCII Art
 setup() {
-curl -s https://raw.githubusercontent.com/Rambeboy/Rambeboy/refs/heads/main/Elixir.sh | bash
-sleep 3
+  curl -s https://raw.githubusercontent.com/Rambeboy/Rambeboy/refs/heads/main/Elixir.sh | bash
+  sleep 3
 }
 
 # Display environment structure
